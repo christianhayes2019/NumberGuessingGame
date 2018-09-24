@@ -27,6 +27,7 @@ public class NumberGuess {
                     System.out.println("CONGRATS YOU WIN!");
                     System.out.println("It took you " + numberOfTries + " tries to guess the number " + pickedNumber + "!");
                     System.out.println("Thanks for playing!");
+                    wonGame = true;
                 }
                 else {
                     System.out.println("You have only "+ (totalTurns-numberOfTries) + " tries left!");
